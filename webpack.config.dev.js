@@ -3,7 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
-const repositroy = '/simple-spa-github';
+// replace routePrefix with your repository name.
+const routePrefix = '/simple-spa-github';
 
 module.exports = {
 	mode: 'development',
@@ -15,7 +16,7 @@ module.exports = {
 	output: {
 		filename: '[name].js',
 		path: path.resolve(__dirname, 'dist'),
-		publicPath: path.resolve(repositroy, 'dist')
+		publicPath: path.resolve(routePrefix, 'dist')
 	},
 	module: {
     rules: [
