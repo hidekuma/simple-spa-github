@@ -11,7 +11,7 @@ const App = () => (
 		<Switch>
 			<Route exact path="/" component={Index} />
 			<Route exact path="/sample" component={SamplePage} />
-			{/* Adding 'else > not found' conditions may affect other repository. */}
+			<Route exact component={NotFound} />
 		</Switch>
 	</Router>
 );
