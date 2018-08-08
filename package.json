@@ -1,0 +1,40 @@
+{
+  "name": "simple-spa-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hidekuma/hidekuma.github.io.git",
+  "author": "hidekuma <d.hidekuma@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --open --config webpack.config.dev.js",
+    "prebuild": "rimraf dist",
+    "build": "webpack --config webpack.config.dev.js"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-imported-component": "^4.6.2",
+    "react-prop-types": "^0.4.0",
+    "react-router-dom": "^4.3.1",
+    "semantic-ui-react": "^0.82.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-harddisk-plugin": "^0.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^2.1.6",
+    "react-hot-loader": "^4.3.4",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
