@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Header, Container, Divider, List, Icon } from 'semantic-ui-react';
+import { Header, Container, Divider, List, Flag } from 'semantic-ui-react';
 
 const Layout = ({ children }) => {
   return (
     <Container>
       <Header as="h1">
-				<Link to="/">
+				<Link to="/" style={{color: '#000'}}>
 					Simple-spa-github
 				</Link>
       </Header>
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
 			</List>
       <Divider />
       <p>
-        Made by <Icon name="star" color="yellow" /> Hidekuma
+        Made by <Flag name='kr' />Hidekuma
       </p>
     </Container>
   );

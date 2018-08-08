@@ -3,7 +3,7 @@ import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
 import Index from './Index.js';
 import SamplePage from './SamplePage.js';
 import NotFound from './NotFound.js';
-{/* replace routePrefix with tour repository name. */}
+{/* replace routePrefix with your repository name. */}
 const routePrefix = '/simple-spa-github';
 
 const App = () => (
