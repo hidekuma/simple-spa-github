@@ -1,7 +1,6 @@
 # simple-spa-github
-> this source can create easily SPA in github.
-* [@hidekuma](https://github.com/hidekuma)
-* [Demo site](https://hidekuma.github.io/simple-spa-github/)
+> this source can create easily SPA in github. [@hidekuma](https://github.com/hidekuma)
+* [Live demo](https://hidekuma.github.io/simple-spa-github/)
 ---
 
 ### settings
